@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "38008380107",
+    "project_id": "azkaldi-b2e0d",
+    "storage_bucket": "azkaldi-b2e0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38008380107:android:cfb711d3106898612bd94e",
+        "android_client_info": {
+          "package_name": "com.example.azkaldi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38008380107-o38ov37sep57ii3j6dr69m9dhe7944ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk1STBd2hltHVfaN48P8Tr87tQQriGmJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38008380107-o38ov37sep57ii3j6dr69m9dhe7944ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

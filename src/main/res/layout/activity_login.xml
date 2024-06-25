@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#28A3AE"
+    android:padding="15dp"
+    tools:context=".login">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="354dp"
+        android:layout_height="577dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="13dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="180dp"
+            android:layout_height="83dp"
+            android:gravity="center"
+            android:text="GİRİŞ"
+            android:textColor="@color/black"
+            android:textSize="40dp" />
+
+        <EditText
+            android:id="@+id/mailtext"
+            android:layout_width="310dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Mailinizi Giriniz."
+            android:inputType="textPersonName"
+            android:textColorHint="#4C4646" />
+
+        <EditText
+            android:id="@+id/sifretext"
+            android:layout_width="303dp"
+            android:layout_height="60dp"
+            android:ems="10"
+            android:hint="Şifrenizi Giriniz."
+            android:inputType="textPersonName"
+            android:textColorHint="#4C4646" />
+
+        <EditText
+            android:id="@+id/kullaniciAditext"
+            android:layout_width="300dp"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Kullanıcı Adı giriniz."
+            android:inputType="textPersonName"
+            android:textColorHint="#4C4646" />
+
+        <LinearLayout
+            android:layout_width="317dp"
+            android:layout_height="185dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_giris"
+                android:layout_width="124dp"
+                android:layout_height="63dp"
+                android:backgroundTint="#E91E63"
+                android:text="Giriş" />
+
+            <Button
+                android:id="@+id/btn_kaydol"
+                android:layout_width="144dp"
+                android:layout_height="67dp"
+                android:backgroundTint="#1D32A8"
+                android:text="Kaydol" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
